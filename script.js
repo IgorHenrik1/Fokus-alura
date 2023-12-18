@@ -15,7 +15,7 @@ const iniciarOuPausarBt = document.querySelector('#start-pause span')
 const imgBt = document.querySelector('.app__card-primary-butto-icon')
 const tempoNaTela = document.querySelector('#timer')
 
-let tempoDecooridoEmSegundos = 10
+let tempoDecooridoEmSegundos = 1800
 let intervaloId = null
 
 musica.loop = true
